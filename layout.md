@@ -1,2 +1,2 @@
 untitled.tex
-Please_add_the_following_required__.tex
+centering_resizebox_textwidth_begin_tabular__.tex
