@@ -16,9 +16,9 @@ To make these arguments, we present a multiple case study of databases used and 
 -	cooperative work in museums requires balancing research and public interest – and working across those is really productive
 
 Research questions: 
-•	How do people collaborate using databases, particularly over long periods of time?
-•	How do administrators maintain and migrate a database’s structure over time, and how does that migration effect the work that is or can be done with the database?’
-•	How do database practices shape scientific practices?
-•	How do legacy software and legacy data structures affect research and curatorial activities? 
-•	How has relational database software been adapted to support a new model of collaborative work vs. the old. (e.g. administrator-users vs. users)
+How do people collaborate using databases, particularly over long periods of time?
+How do administrators maintain and migrate a database’s structure over time, and how does that migration effect the work that is or can be done with the database?’
+How do database practices shape scientific practices?
+How do legacy software and legacy data structures affect research and curatorial activities? 
+How has relational database software been adapted to support a new model of collaborative work vs. the old. (e.g. administrator-users vs. users)
 
