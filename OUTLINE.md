@@ -46,13 +46,16 @@
 *	We seek to contribute to this work by bridging these existing studies of infrastructure and work with databases with analysis of how database structures affect work over time – and what steps users take to maintain and curate data structures over time.  In short, we will show the mutual constitution of data models and work practices.
 
 **Method (4 paragraphs)**
+
 * include some sort of description of who we’re going to talk about (demographics)
 * propositions:
 
 **Cases**
+
 Make sure to tie up the quotes – 
 
 **Discussion**
+
 *	So what does this tell us about how we study these things? And conceptual / logical levels in datbases in general? Where should we study this again? Does conceptual and logical have differentiation in other platforms (e.g. social media platforms, hypertext)
 *	Curation as a concern for CSCW and vice versa
 *	
