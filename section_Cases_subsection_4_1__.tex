@@ -1,13 +1,41 @@
 \section{Cases}
 
-\subsection{4.1 Demographic summary}
+\subsection{Demographic summary}
+
+Every single one of our participants was in the middle of, or preparing for, a database migration of some sort; this was somewhat surprising, given that (with one exception) we did not actively seek out participants in the middle of migrations . Additionally, all of our participants learned database management and design on-the-job (sometimes with the help of a text book purchased with their own funds) and have worked with databases exclusively within the context of NHMs or GIS; several have taken short workshops in GIS or database design, and though two took “a few” computer science classes in college, these did not focus on database design or digital preservation. Our participants’ years of experience with databases ranged from 2 to 30; database systems included Access, FileMaker Pro, MySQL Workbench, Arctos, Specify, and Excel.
+
+Over 36 databases were described by our participants (see Appendix A for a full description of the type and format of each database throughout our three phases of observation); perhaps not surprisingly, collections management databases were the most common type of database being managed and migrated by our participants. All but one of the collections management databases had recently, or was about to be migrated to either Specify or Arctos, both of which are free, open source relational database systems designed specifically for NHMs. Several participants additionally maintained transactional (one participant called them “work tasks”) databases separate from their collections databases, used largely to manage loan documents and print labels – even though the collections management databases ostensibly have the ability to print labels or loan documents. It seems that the legacy reporting or label printing functions that users maintained in Access simply couldn’t be migrated easily to systems like Specify or Arctos. As a work around, CMs export data from their primary database, and importing it into Access or Excel to create labels and forms. The transactional databases don’t seem to be viewed as needing migration. Finally, five participants managed research and literature databases. These often overlapped or interlinked with collections databases, but were largely being maintained in “custom” databases (e.g. in MySQL or Access, rather than Specify or Arctos). Two of these (MioMap and the UCD database) are actively being integrated with larger community-driven projects; two are being maintained as they are (the Decapod literature database and the NMITA database); and one (MapStedi) may be archived as it is, pending the hiring and decision of a new curator.
+
+\subsection{How each database learned}
+
+\subsubsection{Vertebrate Zoology, CU Boulder}
+\begin{tabular}{ c c c c c c c c c }
+    Database Name & Format at CM's arrival at museum & Present Format & Anticipated Future Format & Type \\ 
+    A set of
+  databases divided by type of vertebrate (e.g. birds, mammals, fish, reptiles)
+  and by collections' function (e.g. Research, University Teaching, Exhibit,
+  K-12 Teaching) & A set of
+  databases divided by type of vertebrate (e.g. birds, mammals, fish, reptiles)
+  and by collections' function (e.g. Research, University Teaching, Exhibit,
+  K-12 Teaching) & 16 FMP
+  files & 16 FMP
+  files & Excel,
+  cleaning with Open Refine & Excel,
+  cleaning with Open Refine & Arctos & Arctos & Collections Management database \\ 
+    A set of
+  databases divided by type of vertebrate (e.g. birds, mammals, fish, reptiles)
+  and by collections' function (e.g. Research, University Teaching, Exhibit,
+  K-12 Teaching) \\ 
+    16 FMP
+  files \\ 
+    Excel,
+  cleaning with Open Refine \\ 
+    Arctos \\ 
+\end{tabular}
 
 
-Every single one of our participants was in the middle of, or preparing for, a database migration of some sort; this was somewhat surprising, given that (with one exception) we did not actively seek out participants in the middle of migrations . Additionally, all of our participants learned database management and design on-the-job (sometimes with the help of a text book purchased with their own funds) and have worked with databases exclusively within the context of NHMs or GIS; several have taken short workshops in GIS or database design, and though two took “a few” computer science classes in college, these did not focus on database design or digital preservation., Our participants’ years of experience with databases ranged from 2 to 30; database systems included Access, FileMaker Pro, MySQL Workbench, Arctos, Specify, and Excel.
 
-Over 37 databases were described by our participants (Table x); perhaps not surprisingly, collections management databases were the most common type of database being managed and migrated by our participants.. All but one of the collections management databases had recently, or was about to be migrated to either Specify or Arctos, both of which are free, open source relational database systems designed specifically for NHMs .  Several participants additionally maintained transactional (one participant called them “work tasks”) databases separate from their collections databases, used largely to manage loan documents and print labels – even though the collections management databases ostensibly have the ability to print labels or loan documents. It seems that the legacy reporting or label printing functions that users maintained in Access simply couldn’t be migrated easily to systems like Specify or Arctos. As a work around, CMs export data from their primary database, and importing it into Access or Excel to create labels and forms. The transactional databases don’t seem to be viewed as needing migration. Finally, five participants managed research and literature databases. These often overlapped or interlinked with collections databases, but were largely being maintained in “custom” databases (e.g. in MySQL or Access, rather than Specify or Arctos). Two of these (MioMap and the UCD database) are actively being integrated with larger community-driven projects; two are being maintained as they are (the Decapod literature database and the NMITA database); and one (MapStedi) may be archived as it is, pending the hiring and decision of a new curator.
-
-Vertebrate Zoology, CU Boulder. CM Emily Braker has been working with databases for approximately 10 years; her work at CU is informed by prior experience migrated systems at the Harvard Museum of Contemporary Zoology.  The collections are split into 4 categories (Birds, Mammals, Reptiles & Fish), which are in turn split into 4 databases (Research, Exhibits, K-12 Education, University Education). Each database is a separate FileMaker Pro File; 16 databases in total.  At the time of our first interview, she was migrating and merging these databases into Arctos, but needs to clean the data considerably; a year later she had successfully finished this project, and moved to physically migrating her specimen collections from one room to another.
+The collections are split into 4 categories (Birds, Mammals, Reptiles & Fish), which are in turn split into 4 databases (Research, Exhibits, K-12 Education, University Education). Each database is a separate FileMaker Pro File; 16 databases in total.  At the time of our first interview, she was migrating and merging these databases into Arctos, but needs to clean the data considerably; a year later she had successfully finished this project, and moved to physically migrating her specimen collections from one room to another.
 
 How she learned the databases, and how the databases learned: The databases were largely undocumented when Braker began work at CU, and as a result she had to learn each database’s structure through qualitative exploration, review of records one-by-one, and by conferring with more other staff.  She found many duplicate records between the databases (the same specimen would be cataloged in the “research” and “education” databases, with different information in each), and that this was “an artifact of trying to get things... digitized” without understanding the long-term implications of early database design choices.   This siloing, though, served an administrative function: it was a simple way of allowing different departments to have control over different aspects of the database.  Braker faced some significant challenges in migrating the databases to Arctos, largely due to differences in data structure rooted in underlying physical curatorial practices.  Fish and reptiles are often stored in jars of alcohol and cataloged as “lots” of multiple specimens, whereas birds and mammals are more likely to be cataloged individually, or even dissected into constituent parts.  Thus, the migration to Arctos forced Braker to migrate several different schemas to one unified schema.
 
