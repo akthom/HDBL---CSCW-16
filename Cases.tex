@@ -40,10 +40,13 @@ In this case, one can view the database as learning through iterative schema con
 \subsubsection{Vertebrate Paleontology, U of Oregon:}
 
 When Davis first took over the collections database, it was in Access; and he has since migrated it to Specify 6. "Loosely based on the UCMP's database structure," it contained two tables – one for specimens, and one for localities. However, the database’s original creator never actually saw the UCMP database:
-\href{http://}{“Ostensibly these two tables that would be linked through the locality number... there wasn't actually a link between the two tables in Access. So whoever had built it had... never actually gone through and done the job of connecting them."}
-Much of the locality data was repeated in the Specimen table, and over time, the locality data in each table began to drift apart, so to speak: records with the same locality number contained different locations.  During the migration to Specify, Davis and his students spent considerable time correcting this data (by cross-referencing with the paper card catalog), while also cleaning it – by hand – for issues like excessive capitalization and trailing spaces at the end of records.  
+\begin{quote}
+“Ostensibly these two tables that would be linked through the locality number... there wasn't actually a link between the two tables in Access. So whoever had built it had... never actually gone through and done the job of connecting them."
+\end{quote}
+Much of the locality data was repeated in the specimen table, and over time, the locality data in each table began to diverge: records with the same locality ID contained different locality descriptions. During the migration to Specify, Davis and his students spent considerable time correcting and cleaning this data – by hand – for issues like excessive capitalization and trailing spaces at the end of records.  
 
 He is now working to integrate MioMap into Neotoma, a larger, also relational, community-developed paleoecology research database as part of an NSF project aiming to create a unified API for the major paleontology resources on the web.  One challenge here: MioMap has 6 tables, whereas Neotoma has 25-30. Davis, “expect[s] there to be problems where there are elements that are going to be single lines in new tables in Neotoma that are right now multiple entries in the tables that [he has] in MioMap. And those entries aren't uniform in their machine readability."  Thus he anticipates a huge need for data curation and cleaning.
+
 
 
 \subsubsection{Paleobotany & micropaleontology, “Prairie State University ”:}
