@@ -8,11 +8,6 @@ We argue that the reports of the relational database’s death are greatly exagg
 
 Other rather mundane technologies such as email and spreadsheets have received attention [Belotti, Nardi etc.] This work reminds us of the innovative ways that people may adopt, adapt, tailor and appropriate a technology to meet particular needs. We believe that databases should also be considered in this way.
 
-
-
-In this work, we study databases by bringing E. F. Codd in conversation with Stewart Brand: looking at databases and the logical schemas that underlie them in the same way that Brand looked at buildings, and how they change (or “learn” in Brand’s words) from their surroundings, contents and use over time.  This framing provides us with a way of not only looking at how the structures of databases affects the work that is done with them, but how that work, in turn, affects database structure over time.  A longitudinal view here is necessary because the rhythms of information work cannot be encapsulated by only one instance; further,  
-
-
 In this paper, we want to emphasize that database use, maintenance and migration – particularly over the long-term – is indeed cooperative work, and show that this work has certain important properties – notably in that it is particularly influenced by the underlying information models and data structures in relational databases.  Further, we want to show that the process of curating and controlling both data and data models alike is one that CSCW should pay attention to: in other words, that data curation is a problem for CSCW, and a CSCW perspective will make data curation better.
 
 
