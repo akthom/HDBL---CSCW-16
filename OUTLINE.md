@@ -1,3 +1,5 @@
+# OUTLINE
+
 **Intro:**
 
 *	Describe the pervasivenesss & many roles of relational databases – and briefly note that they have been understudied from a CSCW perspective 
