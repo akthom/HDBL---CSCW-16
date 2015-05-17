@@ -62,10 +62,17 @@ Their data model has been developed specifically to express the complicated rela
 This database has learned through somewhat extreme niche adaptation: where other collections have co-opted fields and attempted to work around the inevetible limitations of using a community schema, this database has become so... specified to its originating data model that it cannot be feasibly cross-walked. While this niche specificity has not impacted local work practices -- the CM has found a way to continue working with her students -- it has meant that the Prairie Museum will not be collaborating with the broader museum database community.
 
 \subsubsection{Paleontology (both invertebrate and vertebrate) - U of Iowa:}
-CM Tiffany Adrain has 26 years of experience with database design and management in NHMs, and has been working with her current charges for 16 years.  Adrain manages a collections database (in Specify 5); several “work tasks” Access databases used for processing loans and printing labels; and a web-accessible Oracle research database 
 
-While Tiffany is the only full time user/manager of this DB, she has a large number of volunteers and students working with her and on other projects.  When asked if she's the only one entering data directly into the system, she said, 
-"No, but I should be!  [laughs]  It's difficult...  I always feel like I'm the bottleneck here.  If I have students doing spreadsheets, putting information into spreadsheets and giving [them] to me to put into the database, it would stop with the spreadsheets...."  
+Though the Paleontology collections database was migrated to Specify 5 from a legacy dBase catalog in the early 2000s, (before Adrain took over as CM), she describes her database as still being haunted by “ghosts” of collections databases past. She regularly encounters inconsistencies or idiosyncrasies in the data that originated in the older system.  For instance:
+\begin{itemize}
+\item The dBase system had a 1:1 relationship between specimens and citations; rather than changing the schema to accommodate specimens with multiple citations, the original CM created duplicate specimen records to add citation information to, with a pointer back to the original record.  These duplicate records were migrated to Specify and now need to be merged or eliminated.
+\item The database has multiple fields for stratigraphy and locality because in dBase, \begin{quote}
+“we only had a finite number of characters you could put in each field. So if there was detailed stratigraphy, and it didn't fit into one field… then there was another field, detailed stratigraphy 2, where you could carry on.... so we've got stuff that really should be in one field that's split into several fields."
+\end{quote}  
+\end{itemize}
+Adrain anticipates that she will have to exorcise some of these ghosts once she migrates to Specify 6 (this will be soon; her museum's IT will no longer support 5 in a few months).
+
+This database is learning in a similar way as Karim's Specify 5 database; however this one could also be be viewed as suffering from an overactive memory, or learning in an incomplete way. That said, the it hasn't been migrated yet because it's simply working too well for Adrain and her students; she says it's simply been used too often to be migrated. 
 
 \subsubsection{Invertebrate Zoology - LACM}
 Further complicating schema migration: the Specify schema in particular is a “moving target” as one participant put it – because Specify changes its schema from version to version.  One CM (Pentcheff, from LACM) has been working on “fielding” a Specify database for almost two years now – identifying what fields he would want in forms, and what fields he could crosswalk his existing database to in the Specify schema – but his migration has been delayed both by other work obligations, and by the desire to match each new Specify release:
