@@ -60,10 +60,10 @@
     * Units of observation: Instance of database at a particular point in time. 
 * Study Questions: 
 
-1. In NHMs, how do collections managers manage, curate and migrate their databases over time?
-1. In NHM databases, how do logical schemas change over time?
-1. In NHM databases, how do logical schemas impact work, and vice versa?
-1. In NHMs, how do changes in databases impact collaboration? 
+    1. In NHMs, how do collections managers manage, curate and migrate their databases over time?
+    1. In NHM databases, how do logical schemas change over time?
+    1. In NHM databases, how do logical schemas impact work, and vice versa?
+    1. In NHMs, how do changes in databases impact collaboration? 
 
 * Propositions: 
     * Like buildings, databases learn -- that is, their structure changes in response to their users, their data and the software used to house the database
