@@ -67,7 +67,7 @@
 
 * Propositions: 
     * Like buildings, databases learn -- that is, their structure changes in response to their users, their data and the software used to house the database
-    * NHM CMs may not have a large amount of formal training in database design or management, but they do consider database management and maintenance an important part of curatorial work (Marty 2005; 2007)
+    * NHM CMs may not have a large amount of formal training in database design or management, but they do consider database management and maintenance an important part of curatorial work (\cite{Marty_2005}; \cite{Marty_2006})
     * Databases will tend to become denormalized over time, and ad hoc work arounds may be used to make them work.
     * This denormalization can have a long term detrimental effect on data quality, but may ease collaboration, at least in the short term
     * Denormalization over time is ironically at least partially a side effect of the relational model, which aims to focus users on relationships rather than relations (in mathematical sense). In practice, the separation between relations and relationships is predicated on an administrator vs. user role distinction. However, in many places of cooperative work, those roles are blurred 
