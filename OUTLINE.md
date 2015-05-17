@@ -45,6 +45,7 @@
 *	Other related work in CSCW 
 	*	Work rhythms
 	*	Other databases studies
+	*	Data curation?
 *	We seek to contribute to this work by bridging these existing studies of infrastructure and work with databases with analysis of how database structures affect work over time – and what steps users take to maintain and curate data structures over time.  In short, we will show the mutual constitution of data models and work practices.
 
 **Method (4 paragraphs)**
