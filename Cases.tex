@@ -21,19 +21,23 @@ Thus, one aspect of retrofitting involves restructuring relationships between da
 
 \subsection{Loopholes or Code Violations?: co-opting fields and denormalization }
 
-Inevitably, there are fields that cannot be easily cross-walked between schemas. One common way of working around schema mismatch in Specify is to “co-opt” fields for idiosyncratic purposes: using a field in Specify for something other than its intended datum. Sometimes this is necessary because Specify doesn’t have the field needed, but in other cases, it’s because some fields have technical constraints to them that conflict with local cataloging practices. For instance, participant UIP had to co-opt a field to store catalog numbers because Specify 5 didn’t like the alpha’s in her alphanumerics:
+Inevitably, there are fields that cannot be easily cross-walked between schemas. One common way of working around schema mismatch in Specify is to “co-opt” fields for idiosyncratic purposes: using a field in Specify for something other than its intended datum. Sometimes this is necessary because Specify doesn’t have the field needed, but in other cases, it’s because fields have technical constraints to them that conflict with local cataloging practices. For instance, participant UIP had to co-opt a field to store catalog numbers because Specify 5 didn’t like the alpha’s in her alphanumerics:
 \begin{quote}
 “With our specimens, we have suffixes, A, B, C, D, so if you have a slab of rock with multiple specimens on it, the slab gets one catalog number, and then the specimens all have the same catalog number, but then they'll would have an A, B, C, or D added to it... so we couldn't have a letter in the unique number field in Specify, because it's just numbers, you couldn't have letters in there"
 \end{quote}
-Predictably, co-opting fields complicates later migrations between versions of Specify. Participant CUIP migrated her collections database between 5 and 6; because so many fields had been co-opted, she had to compare field names in data entry forms “by hand” to the field names in the underlying schema to ensure that they will “map” properly to the new system: 
-\begin{quote}
-"whoever had set up the 5 databases had co-opted fields, so the field that was hard coded into the database of, like, "latitude" may not be where latitude was actually stored. So when [the Specify team] went to do the mapping, they mapped latitude to latitude -- but it turned out latitude in 5 was in "text field 2" or something." 
-\end{quote}
-Many of these co-opted fields appear to be, as UIP put it, “ghosts” of collections databases past -- in her case, a legacy dBase catalog that had been migrated to Specify 5 in the early 2000s, before she took over as CM. Despite the migration to Specify's schema, she still regularly encounters inconsistencies in the data that originated in the older system.  For instance: 
+Co-opting fields complicates later migrations between versions of Specify. Over time, these co-opted fields behave, as UIP put it, like “ghosts” of collections databases past -- in her case, a legacy dBase catalog that had been migrated to Specify 5 in the early 2000s, before she took over as CM. Despite the migration to Specify's schema, she still regularly encounters inconsistencies in the data that originated in the older system. For instance: 
 \begin{itemize}
-\item the dBase system had a 1:1 relationship between specimens and citations; rather than changing the schema to accommodate specimens with multiple citations, the original CM created duplicate specimen records to add citation information to, with a pointer back to the original record.  These duplicate records were migrated to Specify and now need to be merged or eliminated.
+\item the dBase system had a 1:1 relationship between specimens and citations; rather than changing the schema to accommodate specimens with multiple citations, the original CM created duplicate specimen records to add citation information to, with a pointer back to the original record. These duplicate records were migrated to Specify and now need to be merged or eliminated.
 \item The database has multiple fields for stratigraphy and locality because in dBase, “we only had a finite number of characters you could put in each field. So if there was detailed stratigraphy, and it didn't fit into one field… then there was another field, detailed stratigraphy 2, where you could carry on.... so we've got stuff that really should be in one field that's split into several fields."  
 \end{itemize}
+Participant CUIP reported similar hauntings; when she migrated her collections database between Specify 5 and 6, so many fields had been co-opted, she had to compare field names in data entry forms “by hand” to the field names in the underlying schema to ensure that they will “map” properly to the new system: 
+\begin{quote}
+"whoever had set up the 5 databases had co-opted fields, so the field that was hard coded into the database of, like, 'latitude' may not be where latitude was actually stored. So when [the Specify team] went to do the mapping, they mapped latitude to latitude -- but it turned out latitude in 5 was in "text field 2" or something." 
+\end{quote}
+
+In Specify, co-opting fields can be viewed as a code violation -- misuse of a data schema -- or a helpful loophole that 
+
+Finally, it's worth noting that fields in Arctos don't seem to be co-opted with such regularity, possibly because the Arctos managers are much stricter about adherence to their schema because the data is published online. Where Specify allows users to create independent structures, Arctos is tantamount to a condominium complex: the contents of each unit may differ, but the structure is managed and maintained by an external board.
 
 \subsubsection{Up to Code: Denormalization & Data Cleaning}
 
