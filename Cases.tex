@@ -19,7 +19,7 @@ Migration from legacy systems to either of these databases requires mapping exis
 \end{quote}
 Thus, one aspect of retrofitting involves restructuring relationships between data tables.  In this case, a one to one relationship was reworked into a one-to-one schema.
 
-\subsection{Loopholes or Code Violations?: co-opting fields and denormalization }
+\subsubsection{Loopholes or Code Violations?: co-opting fields and denormalization }
 
 Inevitably, there are fields that cannot be easily cross-walked between schemas. One common way of working around schema mismatch in Specify is to “co-opt” fields for idiosyncratic purposes: using a field in Specify for something other than its intended datum. Sometimes this is necessary because Specify doesn’t have the field needed, but in other cases, it’s because fields have technical constraints to them that conflict with local cataloging practices. For instance, participant UIP had to co-opt a field to store catalog numbers because Specify 5 didn’t like the alpha’s in her alphanumerics:
 \begin{quote}
