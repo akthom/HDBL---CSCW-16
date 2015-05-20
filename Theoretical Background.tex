@@ -1,21 +1,10 @@
 \section{Theoretical Background}
 
-\subsection{Codd}
-\begin{itemize}
-\item Tripartite model (ANSI)
-\item Logical modeling as a CSCW issue
-\begin{itemize}
-\item Relational model as designed for distinct user/administrator roles
+Most contemporary databases follow a relational data model, thanks in part to E. F. Codd work in the early 1970's to address problems of “shared” data banks, by  “[protecting] users from having to know how data is organized” in a computer system (pp. 377, \cite{Codd_1970}. Moving away from tree-structures or network models of data, Codd conceived of a set theoretic approach to the representing data by separating three levels of a system's architecture: 1. Physical levels describe how data are stored; 2. Logical levels describe what data are stored, and; 3. Views levels hide details of the physical and logical levels, and can be tailored to specific end user query needs. In hiding these details, Codd's relational model emphasizes users, as he wrote “there is one consideration of absolutely paramount importance – and that is the convenience of the majority of users” (1971, pp.2; emphasis his). 
 
-\begin{quote}
-“To sum up, it is proposed that most users should interact with a relational model of the data consisting of a collection of time-varying relationships (rather than relations).”
-\end{quote}
+In Codd's ideal model, the division of a database's architecture also results in a division of labor between database designers and administrators at the logical level, and end-users at the views level. In practice, these divisions aren't based on rigid types, but rather roles that different people play in interacting with a database at different points in time. An individual might help design and administer a database that she also uses as a part of her own research. This is especially common in information-rich-but-personnel-poor workplaces, where desktop applications such as Microsoft Access and FileMaker Pro reduce the burden of having to learn set-theory just to create a relational database. Many CSCW and HCI studies have described the problematic nature of these collapsed database roles, including: Batra's work on error types in database design (1993) which are described in terms of  four 'gulfs' that emerge between context of use and design; Olson's description of the organizational super-administrator (2010), and ; Dourish and Edwards design of a toolkit to reduce the burden of "locking" style commitments in software code or design constraints of database schemas (2000). Our work focuses on how the division of views and logical levels of database architecture...  
 
-Most contemporary databases follow a relational data model, thanks in part to E. F. Codd work in the early 1970's to address problems of “shared” data banks, by  “[protecting] users from having to know how data is organized” in a computer system (pp. 377, \cite{Codd_1970}. Moving away from tree-structures or network models of data, Codd conceived of a set theoretic approach to the representing data by seperating three levels of a system's architecture: 1. Physical levels describe how data are stored; 2. Logical levels describe what data are stored, and; 3. Views levels hide details of the physical and logical levels, and can be tailored to specific end user query needs. In hiding these details, Codd's relational model emphasizes users, as he wrote “there is one consideration of absolutely paramount importance – and that is the convenience of the majority of users” (1971, pp.2; emphasis his). 
-
-In Codd's ideal model, the division of a database's architecture also results in a division of labor between database designers and administrators at the logical level, and end-users at the views level. In practice, these divisions aren't based on rigid types, but rather roles that different people play in interacting with a database at different points in time. An individual might help design and administer a database that she also uses as a part of her own research. This is especially common in information-rich-but-personnel-poor workplaces, where desktop applications such as Microsoft Access and FileMaker Pro reduce the burden of having to learn set-theory just to create a relational database. 
-
-Relational databases’ “roles” have shifted over time as well. Many early conceptions of relational databases in particular were with business information needs in mind; Codd uses the example of a “parts” database for a machine warehouse, and many database design textbooks and courses continue to use similar versions of this use case today.  But the continued resurrection of this transactional use case ignores the more complex existence that relational databases have in a research setting, in which they are part infrastructure for information storage and retrieval, part research objects in and of themselves, and wholly what Bietz and Lee call “boundary negotiating objects” (2009): artifacts in which research methods and worldviews are negotiated into being, and crystallized into canon.  
+Additionaly, many of the textbooks and examples from this literature rely upon a transactional use case - such as a parts database in a warehouse. While the transactional use case is a helpful pedagogical tool, it also  ignores the more complex uses of relational databases, such as those in a research setting where they are part infrastructure for information storage and retrieval, and part artifact in which research methods and worldviews are negotiated into being, and crystallized into canon (e.g. Bietz and Lee, 2009; Bowker, 2000, Jagadish et al., 2007.)  
 
 \item Lots of discussion of need for data independence between physical/logical levels – what about logical/conceptual? How do those interact?
 \item And what about logical structure and day-to-day work practices? How do those interact?
@@ -32,21 +21,9 @@ Relational databases’ “roles” have shifted over time as well. Many early c
 \item Include figure showing table growth over time
 \end{itemize}
 
-
-Brand’s analysis of buildings [ref] highlights a number of important issues that arise when taking a longer term perspective. He contrasts the initial appearance of a building and the architect’s vision (often the major criteria used in determining awards) with the actual use experience over time of the people living in it. He continues this analysis by exploring use over years, decades and even centuries noting how the requirements of the inhabitants of the building change and so they change the structure and the meaning of parts of the building, adding, demolishing and modifying. Over longer time periods, a building may have different inhabitants and be used for changing purposes. 
-
-Brand’s ideas have been found useful in the context of an HCI perspective on ubiquitous technologies for domestic environments (Rodden & Benford 2003).  We believe that his analysis of buildings can serve as a productive metaphor for exploring the way that databases change over similarly long time periods (Thomer & Twidale 2014)
-
-Change occurs at different rates, and Brand proposed six layers to describe these rates. [expand here or later]
-
-
-
-
 \subsection{Related Work in CSCW}
 
-Although there was a consideration of databases in the early days of CSCW as a research field [Mariani] relatively little recent work explicitly addresses them. By contrast there is a growing body of work on infrastructures and collaborative aspects of scientific work [e.g refs? what?]. Some of this also focuses on the importance of taking a long term perspective on the scientific process and the informational resources that support it [eh Karasti et al. Ribes]. However most of this work takes a higher level organizational perspective, considering issues such as governance and incentives. In this study we choose to look at the databases as the unit of analysis and what we can learn from they way that they change over time and how those changes are effected by people.
-
-Voida et al. did a study at a similar level to ours, but in a somewhat different domain: the coordinators of volunteers at various non-profit organizations (NPOs). NPOs and Natural History Museums do have certain things in common; both suffer from a lack of funding, and funding for informational infrastructure can be particularly difficult to justify.  However there are also important differences. We will compare our findings with those of Voida et al. in later sections.
+[depending on what isn't folded into the sections above and below]
 
 \subsection{The nature of natural history work}
 
@@ -59,3 +36,7 @@ Ideally, collections databases would act as both a finding aid for the physical 
 add some refs about how this work uses very long lived data sources and has ver long citation half-lives
 
 maybe add in a sentence clarifying relationship to biodiversity/taxonomic informatics projects
+
+\begin{quote}
+“To sum up, it is proposed that most users should interact with a relational model of the data consisting of a collection of time-varying relationships (rather than relations).”
+\end{quote}
