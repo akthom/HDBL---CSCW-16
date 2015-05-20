@@ -46,11 +46,15 @@ In some cases, Excel becomes a longer term, staging zone between migrations. The
 
 [ a few more sentences wrapping this up here?]
 
-\subsection{Additions \& Guest Houses: managing and integrating research databases}
+\subsection{Additions, Guest Houses \& Concurrent Estates: managing and integrating research databases [this header needs embettering]} 
+As noted above, several of our participants additionally manage research databases. While these databases may include specimen data -- and in some instances, such as the Neogene Marine Biota of Tropical America (NMITA) database hosted at Iowa\footnote{http://porites.geology.uiowa.edu/}, may have been initially drawn from aspects of collections databases -- they include additional data such as observational occurrence data (e.g. the time, date and location at which a species was cited), ecological data and more, depending on the research they're meant to underpin.
+One of the most compelling research databases described by our participants is
+: Davis learned the MioMap database with the help of his advisor, and learned database design with the help of a textbook; he has managed the database off and on for n years, teaching himself relational design, SQL and PHP in the process.  He is now working to integrate MioMap into Neotoma, a larger, also relational, community-developed paleoecology research database as part of an NSF project aiming to create a unified API for the major paleontology resources on the web.  One challenge here: MioMap has 6 tables, whereas Neotoma has 25-30. Davis, “expect[s] there to be problems where there are elements that are going to be single lines in new tables in Neotoma that are right now multiple entries in the tables that [he has] in MioMap. And those entries aren't uniform in their machine readability."  Thus he anticipates a huge need for data curation and cleaning.
 
-As noted above, several of our participants additionally manage research databases. While these databases may include specimen data -- and in some instances, such as the Neogene Marine Biota of Tropical America (NMITA) database hosted at Iowa\footnote{http://porites.geology.uiowa.edu/}, may have been initially drawn from aspects of collections databases -- they include additional data such as observational occurrence data (e.g. the time, date and location at which a species was cited), ecological data and more, depending on the research they're meant to underpin. Research databases may also include taxonomic databases: carefully curated collections of bibliographic references species descriptions. 
 
-A taxonomic database may superficially seem like a simple bibliographic resource, but as our participant from LACM explains,
+
+
+Research databases may also include taxonomic databases: carefully curated collections of bibliographic references species descriptions. They may superficially seem like a simple bibliographic resource, but as our participant from LACM explains,
 \begin{quote}
 “It’s important to remember that for taxonomists, the bibliographic information are data. It's not just the description of where to find the reference. It's actually data that represent the publication date, the publication information for a particular taxon concept, and they are very, very careful about that information.”
 \end{quote}
@@ -66,7 +70,5 @@ They eventually did add tables to track and archive edits in a “pretty aggress
 The database is now fairly widely used by decapod researchers (100 use it regularly, and a few thousand more casually), and Pentcheff credits the aggressive provenance-tracking and annotation with making it usable by other scholars:
 “[When] we reflected with the data that we made available, the change history of the records, all of a sudden, it gave a huge amount of credibility because then they can see what level of trust they're willing to put on any individual record.... And we've had feedback from the community that having that, exposing that kind of metadata about the metadata [laughs] – the metadata metadata – is why they will very often tend to use our listing, rather than any other authoritative source where they are not able to check... the audit trail of the information.”
 
-
-: Davis learned the MioMap database with the help of his advisor, and learned database design with the help of a textbook; he has managed the database off and on for n years, teaching himself relational design, SQL and PHP in the process.  He is now working to integrate MioMap into Neotoma, a larger, also relational, community-developed paleoecology research database as part of an NSF project aiming to create a unified API for the major paleontology resources on the web.  One challenge here: MioMap has 6 tables, whereas Neotoma has 25-30. Davis, “expect[s] there to be problems where there are elements that are going to be single lines in new tables in Neotoma that are right now multiple entries in the tables that [he has] in MioMap. And those entries aren't uniform in their machine readability."  Thus he anticipates a huge need for data curation and cleaning.
 
 
