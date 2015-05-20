@@ -1,4 +1,3 @@
-OUTLINE.md
 abstract.tex
 Introduction.md
 Theoretical Background.tex
@@ -7,3 +6,4 @@ Methods.tex
 Cases.tex
 Discussion.tex
 Conclusion.tex
+OUTLINE.md
