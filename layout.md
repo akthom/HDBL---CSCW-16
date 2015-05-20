@@ -1,5 +1,4 @@
 abstract.tex
-Introduction.md
 Introduction.tex
 Theoretical Background.tex
 figures/databaseCases.001/databaseCases.001.jpg
