@@ -87,4 +87,7 @@
 *	So what does this tell us about how we study these things? And conceptual / logical levels in datbases in general? Where should we study this again? Does conceptual and logical have differentiation in other platforms (e.g. social media platforms, hypertext)
 *	Curation as a concern for CSCW and vice versa
 *	Kinds growth & kinds of collaboration w/databases: Synchronic and Diachronic
+*	
+** Things that might be useful**
+Brand uses a qutation Churchill to illustrate the way that people and buildings mutually influence each other: “There is no doubt whatever about the influence of architecture and structure upon human character and action. We make our buildings and afterwards they make us. They regulate the course of our lives”. A similar interaction happens betwee the design of the database and the people designing and modifying it.
 
