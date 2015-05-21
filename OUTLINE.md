@@ -89,6 +89,6 @@
 *	Kinds growth & kinds of collaboration w/databases: Synchronic and Diachronic
 *	
 
-## Things that might be useful**
-Brand uses a qutation Churchill to illustrate the way that people and buildings mutually influence each other: “There is no doubt whatever about the influence of architecture and structure upon human character and action. We make our buildings and afterwards they make us. They regulate the course of our lives”. A similar interaction happens betwee the design of the database and the people designing and modifying it.
+## Things that might be useful
+Brand uses a quotation Churchill to illustrate the way that people and buildings mutually influence each other: “There is no doubt whatever about the influence of architecture and structure upon human character and action. We make our buildings and afterwards they make us. They regulate the course of our lives”. A similar interaction happens between the design of the database and the people designing and modifying it.
 
