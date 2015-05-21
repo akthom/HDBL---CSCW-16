@@ -4,8 +4,28 @@ Like buildings, databases adapt and change over time in response to their users 
 
 \subsection{Schemas, software, and the co-shaping of work}
 
-- we really really need to have a more explicit discussion of how schemas and people have shaped each other and their work I (andrea) can draft tonight
-- potentially for this section - discussion of the fluctuation of user/administrator roles
+Logical models impact the work of this group in several key ways: 
+1)	The kind and format of data that can be stored in the database is fundamentally shaped by the logical model. When data need to be entered that don’t “fit” into this model, work-arounds are used, such as putting data into notes or remarks fields, co-opting fields, or exporting the database to a flat file for curation or temporary storage (at least, temporary in theory). Thus, databases become “misshapen” at the edges of their schemas: the points at which the original designer decided to “end” his view of the world. [this clearly relates to star – cite here?] While these work-arounds may satisfice for workers at the time of their initial implementation, they create problems down the road, when databases need to be migrated either to ward off obsolescence of keep up with new technologists and community needs.  Thus, its important to begin thinking of logical models as crafted iteratively, over time, and that change through use.
+2)	Complex relationships between tables – particularly during a “handover” between managers and particularly when they are not well documented – can act as a barrier to use.  Some of this is due to the innate difficulty of reverse engineering an unfamiliar system, but it may also be because logical schemas not only represent a particular way of thinking of data – but also, a way of working with data. [Example]
+3)	Databases in general, and logical models in specific, demand an administrator. As we reviewed at the beginning of this paper, Codd’s relational model is dependent on an assumption that people using databases will fall into one of two groups: users and administrators. 
+4)	While Specify and Arctos users are the administrators of their collections, and collections’ data, they are not the administrators of her database's underlying schema, per se: the Specify and Arctos developers are.  While the Specify database, in particular, is certainly "learning" from its user base in some important ways – making changes to schemas in response to feedback   
+
+
+
+working in still:
+1)	That said, logical schemas are nevertheless fairly malleable over time – provided the database manager has the tools necessary for reshaping. Some of this is innate in Codd’s model; the relational model is, after all, fundamentally intended to support addition of new tables, fields and relationships over time. However, the method through which these new features can or are added is often somewhat idiosyncratic and warrants further study, particularly from a practical or CSCW perspective. For instance, during the “handover” stage, when a new collection manager is coming to “learn” the collections database she is charged with, CMs often have to “blow apart” databases (as a CM at Austin put it) into individual tables to clean data. The frequent use of Excel as a staging ground or curatorial tool implies that some level of transformation to a flat file may be necessary for not just migration between systems, but transfer between database managers. 
+
+
+Well-managed database don’t show traces of use or change over time.  A lot of curatorial work is about removing evidence of a database’s learning process: erasing the fingerprints off the catalog cards, in a way.  Part of this is probably related to biodiversity’s increasingly informatic way of knowing: data creators are striving to make their data more and more machine-readable (and often in very subtle ways: for instance, humans aren’t nearly as confused by trailing spaces as Davis’ database was). 
+
+Part of the challenge of this data “cleaning” for community informatic use: community resources, community built databases, often rely on community standards and data models.  Briding the differences between even closely related disciplines (e.g. fish vs. reptiles) can result in a ‘lossy’ database: one in which data are “shaved” to fit into a form, rather than one in which forms were made for data.  
+Application profiles can’t necessarily fix this – when people don’t just store different kinds of data, but rather, store the same data in a different way.
+
+Of the people using flat files in Access, they seem to be keeping things in Access instead of, say, Excel, for the functionality offered for printing forms and reports. 
+
+
+On collaboration: capacity for cooperative work tends to contract during migrations – but particularly for migrations with unexpectedly long durations.
+
 
 \subsection{Comparisons with related studies}
 [this might need moving or deleting, depending on space]
