@@ -1,7 +1,10 @@
-OUTLINE.md
 abstract.tex
-Introduction.md
-Theoretical_Background__.tex
-Methods.tex
+Keywords.tex
+Introduction.tex
+Theoretical Background.tex
 figures/databaseCases.001/databaseCases.001.jpg
+Methods.tex
 Cases.tex
+Discussion.tex
+Conclusion.tex
+OUTLINE.md

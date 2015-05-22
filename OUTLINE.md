@@ -47,6 +47,7 @@
 	*	Other databases studies
 	*	Data curation?
 * Background on NHMs and natural history information work
+    * Include background on Specify and Arctos and the growing move toward these systems
 *	We seek to contribute to this work by bridging these existing studies of infrastructure and work with databases with analysis of how database structures affect work over time – and what steps users take to maintain and curate data structures over time.  In short, we will show the mutual constitution of data models and work practices.
 
 ## Method (4 paragraphs)
@@ -74,15 +75,20 @@
     * So, to summarize, this research will help us begin to understand how relational databases learn in a context of use in which there is no clear cut distinction between administrators and users? That is, what work needs to be done to make these designs "work"?
 
 ## Cases
-
-* For main DB or 2 from each case:
-    * Start each section with a row from a table showing states over time
-    * How did the database learn?
-    * How was work or collaboration impacted by this learning?
+* 1-2 paragraph demographic summary describing cases; may be edited into Methods later
+* Themes:
+    * Laying foundations: origins of databases
+    * up to code: normalization and denormaliztion
+    * migration as retrofitting: the emergence of specify and arctos
+    * integration/convergence/additions/add-ons/ingest - additions & guest houses
 
 ## Discussion
 
 *	So what does this tell us about how we study these things? And conceptual / logical levels in datbases in general? Where should we study this again? Does conceptual and logical have differentiation in other platforms (e.g. social media platforms, hypertext)
 *	Curation as a concern for CSCW and vice versa
+*	Kinds growth & kinds of collaboration w/databases: Synchronic and Diachronic
 *	
+
+## Things that might be useful
+Brand uses a quotation Churchill to illustrate the way that people and buildings mutually influence each other: “There is no doubt whatever about the influence of architecture and structure upon human character and action. We make our buildings and afterwards they make us. They regulate the course of our lives”. A similar interaction happens between the design of the database and the people designing and modifying it.
 
