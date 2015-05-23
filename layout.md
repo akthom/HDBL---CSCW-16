@@ -7,4 +7,3 @@ Methods.tex
 Cases.tex
 Discussion.tex
 Conclusion.tex
-OUTLINE.md
